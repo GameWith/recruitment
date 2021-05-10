@@ -6,7 +6,7 @@
 現在募集中の職種は[サーバサイドエンジニア](https://hrmos.co/pages/gamewith/jobs/0000100)です。
 応募の際は必ず募集要項の内容をご確認ください。
 
-カジュアル面談ご希望の方は [こちらの Wantedly ページ](https://www.wantedly.com/projects/602008) からお申し込みください。
+カジュアル面談ご希望の方は [こちらの Wantedly ページ](https://www.wantedly.com/projects/606408) からお申し込みください。
 
 ## 公開の目的
 
@@ -19,7 +19,7 @@
 
 [全社的にフルリモートワークに移行しているため](https://gamewith.co.jp/3056)すべてのプロセスはオンライン(Google Meet を使用)で行います。面接用の URL は事前に人事より連絡します。
 
-また、選考前に GameWith についての情報共有の場としてカジュアル面談を受けることができます。希望する方は[こちら](https://www.wantedly.com/projects/602008)からお申し込みいただくか、社内のメンバーまでお気軽にご連絡ください。
+また、選考前に GameWith についての情報共有の場としてカジュアル面談を受けることができます。希望する方は[こちら](https://www.wantedly.com/projects/606408)からお申し込みいただくか、社内のメンバーまでお気軽にご連絡ください。
 
 カジュアル面談は選考ではないので何かを評価することはありません。詳細は後述の[カジュアル面談](https://github.com/GameWith/recruitment/blob/master/interview_guide_engineer.md#%E3%82%AB%E3%82%B8%E3%83%A5%E3%82%A2%E3%83%AB%E9%9D%A2%E8%AB%87)の説明をご参照ください。
 
@@ -86,7 +86,7 @@
 
 ## カジュアル面談
 
-カジュアル面談ご希望の方は [こちらの Wantedly ページ](https://www.wantedly.com/projects/602008) からお申し込みください。
+カジュアル面談ご希望の方は [こちらの Wantedly ページ](https://www.wantedly.com/projects/606408) からお申し込みください。
 
 ### 目的
 
