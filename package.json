@@ -1,0 +1,22 @@
+{
+  "description": "GameWith Engineer Recruitment Repository",
+  "devDependencies": {
+    "textlint": "^11.9.1",
+    "textlint-rule-preset-ja-spacing": "^2.1.1",
+    "textlint-rule-preset-ja-technical-writing": "^6.0.0",
+    "textlint-rule-prh": "^5.3.0"
+  },
+  "scripts": {
+    "test": "npx textlint *.md"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GameWith/recruitment.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GameWith/recruitment/issues"
+  },
+  "homepage": "https://github.com/GameWith/recruitment#readme"
+}
