@@ -12,7 +12,7 @@ GameWith のエンジニア採用応募者向けの公開情報をまとめた�
 
 ご応募の際は必ず募集要項の内容をご確認ください。
 
-カジュアル面談ご希望の方は [こちらの Wantedly ページ](https://www.wantedly.com/projects/602008) からお申し込みください。
+カジュアル面談ご希望の方は [こちらの Wantedly ページ](https://www.wantedly.com/projects/606408) からお申し込みください。
 
 ## Index
 
