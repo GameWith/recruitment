@@ -9,6 +9,7 @@ GameWith は FuelPHP というフレームワークを利用して開発され�
 
 - サーバサイド：PHP, Go, (Python, Node.js)
 - フロントエンド：TypeScript, ES6, jQuery, Vue.js, Web Components, LESS...
+- ネイティブアプリ：Swift, RxSwift, Kotlin, kotlinx.coroutines, ExoPlayer
 - データベース：MySQL, Aurora, DocumentDB, DynamoDB
 - システムモニタリング：New Relic, Firebase Performance Monitoring
 - 分析基盤：BigQuery, Google Analytics 4, Google Data Studio
