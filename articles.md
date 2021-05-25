@@ -34,6 +34,7 @@ GameWith のコーポレートサイトやエンジニアやデザイナーが�
 
 サービス開発がどのように行われているかなんとなく知れる記事の一覧です。
 
+- `2021/05/10` [ウマ娘フレンド募集掲示板の Firestore 設計と検索](https://tech.gamewith.co.jp/entry/2021/05/10/115007)
 - `2021/03/04` [GameWith の Core Web Vitals(Cumulative Layout Shift) 改善！](https://tech.gamewith.co.jp/entry/2021/03/04/110829)
 - `2020/12/23` [GoogleAnalytics の目標到達プロセスの分析によって課題発見、改善できた話](https://tech.gamewith.co.jp/entry/2020/12/23/130429)
 - `2020/11/25` [GameWith の手動テスト方法について](https://tech.gamewith.co.jp/entry/2020/11/25/121311)
