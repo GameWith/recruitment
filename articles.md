@@ -51,9 +51,9 @@ GameWith のコーポレートサイトやエンジニアやデザイナーが�
 - `2020/09/29` [TypeScript と aspida で型安全に Vue.js の開発をしている話](https://tech.gamewith.co.jp/entry/2020/09/29/125247)
 - `2020/06/19` [GameWith における CLB から ALB への移行](https://tech.gamewith.co.jp/entry/2020/06/19/112235)
 - `2020/04/21` [GameWith のリプレイスについて vol.2 〜Web Components を Vue で書いたら最高だった編〜](https://tech.gamewith.co.jp/entry/2020/04/21/185819)
+- `2019/12/10` [CleanArchitecture で Golang らしい Package 構成を考える](https://qiita.com/inosy22/items/ce4a6ea7545c5cefd24b)
 - `2019/11/28` [GameWith の PHPUnit を 4 から 8 にバージョンアップした話](https://tech.gamewith.co.jp/entry/2019/11/28/171829)
-- `2019/10/24` [GameWith のリプレイスについて vol.1 ~概要編~](https://tech.gamewith.co.jp/entry/2019/10/24/161947)
-- `2019/10/14` [GolangらしいPackage構成を考える](https://speakerdeck.com/inosy22/thinking-about-golang-like-package-architecture)
+- `2019/10/24` [GameWith のリプレイスについて vol.1 〜概要編〜](https://tech.gamewith.co.jp/entry/2019/10/24/161947)
 - `2019/09/26` [5 年以上 PHP5 で運用されていた FuelPHP で動く GameWith を PHP7.3 にバージョンアップしました！](https://tech.gamewith.co.jp/entry/2019/09/26/185515)
 
 ## 協賛・スポンサード
