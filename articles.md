@@ -20,6 +20,7 @@ GameWith のコーポレートサイトやエンジニアやデザイナーが�
 
 社内の雰囲気やメンバーをなんとなく知れる記事の一覧です。
 
+- `2021/07/07` [開発速度・パフォーマンスを可視化する](https://tech.gamewith.co.jp/entry/2021/07/07/110351)
 - `2021/04/23` [GameWith 開発部で取り組んでいる「業務アピール会」について](https://tech.gamewith.co.jp/entry/2021/04/23/125721)
 - `2020/12/22` [2020 年に起きたワークスタイルの変化とこれからについて](https://tech.gamewith.co.jp/entry/2020/12/22/172829)
 - `2020/12/01` [2020 年 GameWith の技術広報の1年間の振り返りとこれから](https://tech.gamewith.co.jp/entry/2020/12/01/111357)
@@ -45,6 +46,8 @@ GameWith のコーポレートサイトやエンジニアやデザイナーが�
 
 開発チームやシステムについて知れる記事の一覧です。
 
+- `2021/09/22` [GDS のビルド方式をパッケージビルド方式に変更しました](https://tech.gamewith.co.jp/entry/2021/09/22/110250)
+- `2021/09/07` [GameWith の フロントエンド を TypeScript へマイグレーションする](https://tech.gamewith.co.jp/entry/2021/09/07/175544)
 - `2021/02/19` [ダッシュボードに ESLint を導入した話](https://tech.gamewith.co.jp/entry/2021/02/19/175739)
 - `2020/12/20` [ダッシュボード (Vue.js, Composition API) とテストコード](https://tech.gamewith.co.jp/entry/2020/12/20/173143)
 - `2020/10/19` [GameWith のリプレイスについて vol.3 〜俺たちは Shadow DOM で Micro Frontend の理想を追う〜](https://tech.gamewith.co.jp/entry/2020/10/19/124623)
