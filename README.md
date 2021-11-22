@@ -14,7 +14,24 @@ GameWith のエンジニア採用応募者向けの公開情報をまとめた�
 
 カジュアル面談ご希望の方は [こちらの Wantedly ページ](https://www.wantedly.com/projects/606408) からお申し込みください。
 
-## Index
+## 採用技術
+- サーバサイド：PHP, Go, (Python, Node.js)
+- フロントエンド：TypeScript, ES6, jQuery, Vue.js, Web Components, LESS...
+- ネイティブアプリ：Swift, RxSwift, Kotlin, kotlinx.coroutines, ExoPlayer
+- データベース：MySQL, Aurora, DocumentDB, DynamoDB
+- システムモニタリング：New Relic, Firebase Performance Monitoring
+- 分析基盤：BigQuery, Google Analytics 4, Google Data Studio
+- インフラ
+    - AWS（ALB, ECS Fargate, ElastiCache, S3, Lambda, CloudFront...）
+    - GCP（Firebase, Cloud Firestore, Cloud Functions, Vision AI...）
+    - Akamai（Image and Video Manager, Adaptive Media Delivery...）
+
+以下に[stackshare](https://stackshare.io/gamewith-inc/gamewith)から採用スタックを画像で引用しています。
+<div align="center">
+    <p>
+        <img src="./stacks.png">
+    </p>
+</div>
 
 - [GameWith エンジニアの採用面接ガイド](https://github.com/GameWith/recruitment/blob/master/interview_guide_engineer.md)
 - [GameWith エンジニアやサービス開発にまつわる記事](https://github.com/GameWith/recruitment/blob/master/articles.md)
