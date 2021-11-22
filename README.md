@@ -25,8 +25,12 @@ GameWith のエンジニア採用応募者向けの公開情報をまとめた�
     - AWS（ALB, ECS Fargate, ElastiCache, S3, Lambda, CloudFront...）
     - GCP（Firebase, Cloud Firestore, Cloud Functions, Vision AI...）
     - Akamai（Image and Video Manager, Adaptive Media Delivery...）
+
+以下に[stackshare](https://stackshare.io/gamewith-inc/gamewith)から採用スタックを画像で引用しています。
 <div align="center">
-    <img src="./stacks.png">
+    <p>
+        <img src="./stacks.png">
+    </p>
 </div>
 
 - [GameWith エンジニアの採用面接ガイド](https://github.com/GameWith/recruitment/blob/master/interview_guide_engineer.md)
