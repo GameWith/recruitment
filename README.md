@@ -71,7 +71,7 @@ GameWith のエンジニア採用応募者向けの公開情報をまとめた�
 
 全員がヘビーゲーマーというわけではないです。ほとんどゲームをしない方や、ゲーム実況動画を見るだけの方、カジュアルにゲームやる方などいますが、ゲームを日常的にやる方は多いです。
 
-社内でゲームを一緒にプレイするメンバーを募るDiscordサーバーがあるので、そこを通じて同じゲームをする仲間を見つけたりできます。
+社内でゲームを一緒にプレイするメンバーを募る Discord サーバーがあるので、そこを通じて同じゲームをする仲間を見つけたりできます。
 
 - [GameWith エンジニアの採用面接ガイド](https://github.com/GameWith/recruitment/blob/master/interview_guide_engineer.md)
 - [GameWith エンジニアやサービス開発にまつわる記事](https://github.com/GameWith/recruitment/blob/master/articles.md)
