@@ -20,6 +20,9 @@ GameWith のコーポレートサイトやエンジニアやデザイナーが�
 
 社内の雰囲気やメンバーをなんとなく知れる記事の一覧です。
 
+- `2022/10/28` [GameWithエンジニア入社雑記(Case: shgx)](https://tech.gamewith.co.jp/entry/2022/10/28/131759)
+- `2022/10/24` [リモートワークになって最近の働き方](https://tech.gamewith.co.jp/entry/2022/10/24/130403)
+- `2021/12/01` [2021年 GameWith の技術広報の1年間の振り返りとこれから](https://tech.gamewith.co.jp/entry/2021/12/01/123329)
 - `2021/07/07` [開発速度・パフォーマンスを可視化する](https://tech.gamewith.co.jp/entry/2021/07/07/110351)
 - `2021/04/23` [GameWith 開発部で取り組んでいる「業務アピール会」について](https://tech.gamewith.co.jp/entry/2021/04/23/125721)
 - `2020/12/22` [2020 年に起きたワークスタイルの変化とこれからについて](https://tech.gamewith.co.jp/entry/2020/12/22/172829)
@@ -35,6 +38,13 @@ GameWith のコーポレートサイトやエンジニアやデザイナーが�
 
 サービス開発がどのように行われているかなんとなく知れる記事の一覧です。
 
+- `2023/01/31` [読みやすいコードを書くときに心がけていること](https://tech.gamewith.co.jp/entry/2023/01/31/182849)
+- `2022/12/26` [少人数チームでもデザインドックの恩恵を受けている](https://tech.gamewith.co.jp/entry/2022/12/26/124814)
+- `2022/12/20` [認定スクラムマスターが自チームにスクラムを導入しないわけ](https://tech.gamewith.co.jp/entry/2022/12/20/081353)
+- `2022/11/04` [社内でFlutterを採用しアプリと管理画面を開発した話](https://tech.gamewith.co.jp/entry/2022/11/04/150724)
+- `2021/12/08` [動画の操作のログを送信する](https://tech.gamewith.co.jp/entry/2021/12/08/162805)
+- `2021/10/28` [GameWith のログの実装について](https://tech.gamewith.co.jp/entry/2021/10/28/132723)
+- `2021/10/11` [ゲームをより楽しむための攻略ツール開発コンテストを開催！](https://tech.gamewith.co.jp/entry/2021/10/11/141601)
 - `2021/05/10` [ウマ娘フレンド募集掲示板の Firestore 設計と検索](https://tech.gamewith.co.jp/entry/2021/05/10/115007)
 - `2021/03/04` [GameWith の Core Web Vitals(Cumulative Layout Shift) 改善！](https://tech.gamewith.co.jp/entry/2021/03/04/110829)
 - `2020/12/23` [GoogleAnalytics の目標到達プロセスの分析によって課題発見、改善できた話](https://tech.gamewith.co.jp/entry/2020/12/23/130429)
@@ -46,6 +56,21 @@ GameWith のコーポレートサイトやエンジニアやデザイナーが�
 
 開発チームやシステムについて知れる記事の一覧です。
 
+- `2022/12/23` [Autifyの結果画面にフィルタ機能を付与するChrome拡張を作ってみた](https://tech.gamewith.co.jp/entry/2022/12/23/174619)
+- `2022/12/22` [Froala 徹底解説！](https://tech.gamewith.co.jp/entry/2022/12/22/100752)
+- `2022/12/19` [functions を使って firestore のGETをキャッシュしてコストを抑える](https://tech.gamewith.co.jp/entry/2022/12/19/174657)
+- `2022/12/16` [firestore で物理削除を使うか、論理削除を使うか考える](https://tech.gamewith.co.jp/entry/2022/12/16/122510)
+- `2022/12/05` [Amazon SQSを使って処理をキューイングするシステムを構築してみた](https://tech.gamewith.co.jp/entry/2022/12/05/215104)
+- `2022/12/05` [Autifyを用いたE2EテストをJSで工夫した話](https://tech.gamewith.co.jp/entry/2022/12/05/154105)
+- `2022/12/01` [「振り返り」と「インプット会」による相乗効果](https://tech.gamewith.co.jp/entry/2022/12/01/183707)
+- `2022/11/08` [マイクロアニメーションコンポーネントを実装しました](https://tech.gamewith.co.jp/entry/2022/11/08/113936)
+- `2022/11/01` [シューティングゲームの銃弾の当たり判定を作ってみる](https://tech.gamewith.co.jp/entry/2022/11/01/125007)
+- `2022/10/31` [Vue テンプレート上のイベントハンドラ引数からオブジェクト参照を渡す方法を考えました](https://tech.gamewith.co.jp/entry/2022/10/31/162636)
+- `2022/10.14` [モジュールをオンデマンド自動インポートする仕組みを導入しました](https://tech.gamewith.co.jp/entry/2022/10/14/123854)
+- `2022/10/12` [複数の環境変数ファイルで変数定義存在チェックを自動化しました](https://tech.gamewith.co.jp/entry/2022/10/12/151133)
+- `2022/09/09` [インフラ苦手エンジニアが Terraform にチャレンジしました](https://tech.gamewith.co.jp/entry/2022/09/09/130024)
+- `2021/12/20` [New GA でレポーティングを行うTips](https://tech.gamewith.co.jp/entry/2021/12/20/132517)
+- `2021/10/07` [コネクテッドシート導入時に意識したい料金について](https://tech.gamewith.co.jp/entry/2021/10/07/123839)
 - `2021/09/22` [GDS のビルド方式をパッケージビルド方式に変更しました](https://tech.gamewith.co.jp/entry/2021/09/22/110250)
 - `2021/09/07` [GameWith の フロントエンド を TypeScript へマイグレーションする](https://tech.gamewith.co.jp/entry/2021/09/07/175544)
 - `2021/02/19` [ダッシュボードに ESLint を導入した話](https://tech.gamewith.co.jp/entry/2021/02/19/175739)
