@@ -15,7 +15,9 @@
 
 ## AIM練習ソフト
 <div>
-    <img src="images/aim.png"/>
+    <img src="images/aim1.png"/>
+    <img src="images/aim2.png"/>
+    <img src="images/aim3.png"/>
 </div>
 
 
