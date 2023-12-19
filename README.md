@@ -30,13 +30,15 @@ GameWithはFuelPHPというフレームワークを利用して開発されて�
 
 #### GameWith 日本語版スクリーンショット
 PC(Web)
+
 <a href="images/gamewithjp1.png">
-  <img src="images/gamewithjp1.png" style="max-width:30%; display:block;" />  
+  <img src="images/gamewithjp1.png" style="width:30%; display:block;" />  
 </a>
 
 SP(Web)
+
 <a href="images/gamewithjp2.png">
-  <img src="images/gamewithjp2.png" style="max-width:30%; display:block;" />
+  <img src="images/gamewithjp2.png" style="width:30%; display:block;" />
 </a>
 
 
@@ -81,7 +83,7 @@ GameWithはさまざまなマイクロサービスや独自ライブラリなど
   <img src="images/aboutgds.png" style="width:30%; display:block;" />
 </a>
 
-[GameWith Developer Blog 「GameWithのリプレイスについて vol.2 ~Web Components を Vue で書いたら最高だった編~」](https://tech.gamewith.co.jp/entry/2020/04/21/185819) より
+[GameWith Developer Blog 「GameWithのリプレイスについて vol.2 〜Web Components を Vue で書いたら最高だった編〜」](https://tech.gamewith.co.jp/entry/2020/04/21/185819) より
 
 ### 記事下コメントシステム
 GameWithの各種記事に書き込みできるコメントを管理するシステムです。
