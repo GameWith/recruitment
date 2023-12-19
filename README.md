@@ -8,9 +8,9 @@ GameWithの[採用情報ページ](https://recruit.gamewith.co.jp/)も合わせ�
 
 # GameWithの開発スタイルのご紹介
 ## 技術スタック・ツール
-サーバサイド言語としては、主にPHPとGoを採用しています。  
-GameWithはFuelPHPというフレームワークを利用して開発されていますが、適切な粒度でのサービス分割、新規実装部分はGo+Vue.jsにて実装するケースも増えています。  
-最近ではスマホアプリや一部のwebにflutter を取り入れています。
+サーバサイド言語としては、主に PHP と Go を採用しています。  
+GameWithは FuelPHP というフレームワークを利用して開発されていますが、適切な粒度でのサービス分割、新規実装部分は Go+Vue.js にて実装するケースも増えています。  
+最近ではスマホアプリや一部の Web に flutter を取り入れています。
 
 ## 提供サービス紹介
 
@@ -83,20 +83,20 @@ GameWithはさまざまなマイクロサービスや独自ライブラリなど
   <img src="images/aboutgds.png" style="width:30%; display:block;" />
 </a>
 
-[GameWith Developer Blog 「GameWithのリプレイスについて vol.2 〜Web Components を Vue で書いたら最高だった編〜」](https://tech.gamewith.co.jp/entry/2020/04/21/185819) より
+[GameWith Developer Blog 「GameWithのリプレイスについて vol.2 〜Web Components を Vue で書いたら最高だった編〜」](https://tech.gamewith.co.jp/entry/2020/04/21/185819)より。
 
 ### 記事下コメントシステム
 GameWithの各種記事に書き込みできるコメントを管理するシステムです。
 
-バックエンドはgolang、フロントエンドはGameWithDesignSystem（Vue.js/TypeScript）を利用しています。  
-会員登録せずとも書き込みができる仕様になっているため、トラフィックの多いGameWithでもユーザーが快適に利用できるようにフロントエンドでの非同期描画やCDNの利用などの工夫をしています。
+バックエンドは golang、フロントエンドは GameWithDesignSystem（Vue.js/TypeScript）を利用しています。  
+会員登録せずとも書き込みができる仕様になっているため、トラフィックの多いGameWithでもユーザーが快適に利用できるようにフロントエンドでの非同期描画や CDN の利用などの工夫をしています。
 
 ### GO最新攻略 & レイド招待・個体値チェッカー
 <a href="images/pokegoapp.png">
   <img src="images/pokegoapp.png" style="width:30%; display:block;" />
 </a>
 
-[GameWith Developer Blog 「社内でFlutterを採用しアプリと管理画面を開発した話」](https://tech.gamewith.co.jp/entry/2022/11/04/150724)より
+[GameWith Developer Blog 「社内でFlutterを採用しアプリと管理画面を開発した話」](https://tech.gamewith.co.jp/entry/2022/11/04/150724)より。
 
 # 開発プロセス 
 
@@ -109,7 +109,7 @@ GameWithの各種記事に書き込みできるコメントを管理するシス
 また、チームや仕事内容によって度合いは変わりますが各事業部とも仕様の相談・調整を随時行っています。開発部が主体的にビジネス視点での改善や施策を提案しコミットすることを強く推奨しており、ビジネス側もそれを受け入れる風土があります。
 
 ## 各種管理
-コミュニケーションツールとして slack、 チームのタスク管理にはZenHub、ドキュメント管理にはNotionを利用しており、**フルリモートワーク体制でも滞りなく業務が遂行できる**ツールを積極的に導入しています。
+コミュニケーションツールとして slack、 チームのタスク管理には ZenHub、ドキュメント管理には Notion を利用しており、**フルリモートワーク体制でも滞りなく業務が遂行できる**ツールを積極的に導入しています。
 
 <a href="images/zenhub.png">
   <img src="images/zenhub.png" style="width:30%; display:block;" />
@@ -135,7 +135,7 @@ GameWithではユーザに価値を素早く届けることを重視しており
 # エンジニアから見たGameWithの面白さ
 ## ハイトラフィックなサービスの開発運用
 月間5億PV、4500万UUが利用するサービスのため、自らリリースした施策への反応がすぐに返ってきます。  
-秒間リクエスト数まで意識をして設計や実装を行う必要があるため、エンジニアとしてのスキルが磨かれます。
+秒間リクエスト数まで意識をして設計や実装する必要があるため、エンジニアとしてのスキルが磨かれます。
 
 ## いちゲームユーザーとしての視点が活かせる
 2020年〜の巣ごもり需要により、ゲーム業界全体の市場規模が大きく伸長しています。  
@@ -189,9 +189,9 @@ GameWithを開発するエンジニアにとって、少なくとも3つのス�
 </a>
 
 ## 互いに感謝・称賛するカルチャー
-Slack上で ピアボーナスのシステムである [HeyTaco](https://heytaco.com/) を採用しています。  
+Slack上で ピアボーナスのシステムである[HeyTaco](https://heytaco.com/)を採用しています。  
 これはタコスの絵文字で感謝を手軽に表現することでインセンティブを付与できるシステムです。  
-タコスを集めるとガチャを引くことができ、当たりが出るとiTunes/Google Playカードを手に入れることができます。
+タコスを集めるとガチャを引くことができ、当たりが出ると iTunesカード もしくは GooglePlayカード をもらうことができます。
 
 <a href="images/tacos.png">
   <img src="images/tacos.png" style="width:30%; display:block;" />
@@ -203,7 +203,7 @@ Slack上で ピアボーナスのシステムである [HeyTaco](https://heytaco
 ### 技術勉強手当
 業務時間外に月10時間以上の取り組みをした場合に支給されます。  
 基本的にはアウトプットが残る形を推奨しています。
-- コードがあるものはgithubのリポジトリ公開
+- コードがあるものは GitHub のリポジトリ公開
 - 読書をしたものは内容のサマリをブログで公開
 - etc…
 
@@ -212,7 +212,7 @@ Slack上で ピアボーナスのシステムである [HeyTaco](https://heytaco
 </a>
 
 ### OSSコントリビュータ / コミッタ手当
-GitHub の場合、スター数が一定以上のOSSに対してIssueの起票やPullRequestのマージを一定以上行うことによって支給されます。  
+GitHub の場合、スター数が一定以上の OSS に対して Issue の起票や PullRequest のマージを一定以上行うことによって支給されます。  
 ハードルが高い分、半年程度継続して手当が支給されます。
 
 <a href="images/contributer.png">
@@ -220,7 +220,7 @@ GitHub の場合、スター数が一定以上のOSSに対してIssueの起票�
 </a>
 
 ### テックブログの執筆
-社内でテックブログ推進委員がおり、ブログ作成に不安がある人も安心して書くことが出来ます。  
+社内でテックブログ推進委員がおり、ブログ作成に不安がある人も安心して書くことができます。  
 ブログを記載することはエンジニアのスキル向上に役に立つと捉えており、業務時間を使ってブログ執筆も可能です。
 
 <a href="images/blog.png">
