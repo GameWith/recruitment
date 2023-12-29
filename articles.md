@@ -12,6 +12,7 @@ GameWith のコーポレートサイトやエンジニアやデザイナーが�
 - [GameWith Developer Blog](https://tech.gamewith.co.jp/)
   - サービス開発全般のブログです。技術、採用、チームなどの話を書いています。
 - GameWith Advent Calendar
+  - [2023 年](https://qiita.com/advent-calendar/2023/gamewith)
   - [2022 年](https://qiita.com/advent-calendar/2022/gamewith)
   - [2021 年](https://qiita.com/advent-calendar/2021/gamewith)
   - [2020 年](https://qiita.com/advent-calendar/2020/gamewith)
