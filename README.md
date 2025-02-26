@@ -15,9 +15,10 @@ GameWithは FuelPHP というフレームワークを利用して開発されて
 ## 提供サービス紹介
 
 ### GameWith
-- サーバサイド：PHP, Go, (Python, Node.js)
-- フロントエンド：TypeScript, ES6, jQuery, Vue.js, Web Components, LESS...
+- サーバサイド：PHP, Go, Node.js
+- フロントエンド： React, TypeScript, ES6, jQuery, Vue.js, Web Components, LESS...
 - クライアントサイド: Swift, Kotlin, Flutter (Dart), Unity (C#)
+- 機械学習: Python
 - データベース：MySQL, Aurora, DocumentDB, DynamoDB
 - システムモニタリング：New Relic, Firebase Performance Monitoring
 - 分析基盤：BigQuery, Google Analytics 4, Google Data Studio
@@ -61,14 +62,13 @@ https://play.google.com/store/apps/details?id=jp.gamewith.gamewith
 - データベース：Aurora MySQL
 - インフラ: 
   - AWS（ALB, ECS Fargate, S3, Lambda, CloudFront...）
-  - GS2（GameServiceService）主にユーザー管理系に利用
 
 #### AIM練習ソフト概要
 <a href="images/aim1.png">
     <img src="images/aim1.png" style="width:30%; display:block;" />
 </a>
 
-#### AIM練習ソフスクリーンショット(開発中)
+#### AIM練習ソフト スクリーンショット(開発中)
 <a href="images/aim2.png">
     <img src="images/aim2.png" style="width:30%; display:block;"/>
 </a>
@@ -82,18 +82,15 @@ https://play.google.com/store/apps/details?id=jp.gamewith.gamewith
 GameWithはさまざまなマイクロサービスや独自ライブラリなどで構成されています。  
 より良いサービスをユーザーに提供するためにシステムも日々進化していますが数が多いので一部を抜粋してご紹介します。
 
-### GameWithDesignSystem
-<a href="images/aboutgds.png">
-  <img src="images/aboutgds.png" style="width:30%; display:block;" />
-</a>
-
-[GameWith Developer Blog 「GameWithのリプレイスについて vol.2 〜Web Components を Vue で書いたら最高だった編〜」](https://tech.gamewith.co.jp/entry/2020/04/21/185819)より。
-
 ### 記事下コメントシステム
 GameWithの各種記事に書き込みできるコメントを管理するシステムです。
 
 バックエンドは Go、フロントエンドは GameWithDesignSystem（Vue.js/TypeScript）を利用しています。  
 会員登録せずとも書き込みができる仕様になっているため、トラフィックの多いGameWithでもユーザーが快適に利用できるようにフロントエンドでの非同期描画や CDN の利用などの工夫をしています。
+
+GameWithDesignSystemに関しては、下記技術ブログをご参照ください。  
+[GameWith Developer Blog 「GameWithのリプレイスについて vol.2 〜Web Components を Vue で書いたら最高だった編〜」](https://tech.gamewith.co.jp/entry/2020/04/21/185819)より。
+
 
 ### GO最新攻略 & レイド招待・個体値チェッカー
 <a href="images/pokegoapp.png">
@@ -116,7 +113,7 @@ GameWithではフルリモートワークと裁量労働制を導入していま
 定期的に情報共有会を開催したり、一部のメンバーは複数のチームを兼務していたりとチーム間連携も活発に行われています。  
 ロールとしてはリーダー/ディレクター/エンジニアというメンバーでチームが構成されています。  
 
-開発チームの年齢は 26 歳〜 42 歳のレンジで構成されており、ボリュームゾーンは 30 代前半です。  
+開発チームの年齢は 20代前半 〜 40代 のレンジで構成されており、ボリュームゾーンは 30 代前半です。  
 攻略記事ライター出身やディレクター経験のあるエンジニアも在籍しており、さまざまな経歴を持つエンジニアが存在するのも特徴です。  
 育児中のエンジニアリーダーやマネージャー、女性エンジニア、外国籍エンジニアなども活躍しています。  
 
