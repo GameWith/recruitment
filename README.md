@@ -32,20 +32,20 @@ GameWithは FuelPHP というフレームワークを利用して開発されて
 #### GameWith 日本語版スクリーンショット
 PC(Web)
 
-<a href="images/gamewithjp1.png">
-  <img src="images/gamewithjp1.png" style="width:30%; display:block;" />  
+<a href="docs/images/gamewithjp1.png">
+  <img src="docs/images/gamewithjp1.png" style="width:30%; display:block;" />  
 </a>
 
 SP(Web)
 
-<a href="images/gamewithjp2.png">
-  <img src="images/gamewithjp2.png" style="width:30%; display:block;" />
+<a href="docs/images/gamewithjp2.png">
+  <img src="docs/images/gamewithjp2.png" style="width:30%; display:block;" />
 </a>
 
 
 #### GameWith英語版スクリーンショット
-<a href="images/gamewithen.png">
-  <img src="images/gamewithen.png" style="width:30%; display:block;" />
+<a href="docs/images/gamewithen.png">
+  <img src="docs/images/gamewithen.png" style="width:30%; display:block;" />
 </a>
 
 #### iOSアプリ
@@ -64,16 +64,16 @@ https://play.google.com/store/apps/details?id=jp.gamewith.gamewith
   - AWS（ALB, ECS Fargate, S3, Lambda, CloudFront...）
 
 #### AIM練習ソフト概要
-<a href="images/aim1.png">
-    <img src="images/aim1.png" style="width:30%; display:block;" />
+<a href="docs/images/aim1.png">
+    <img src="docs/images/aim1.png" style="width:30%; display:block;" />
 </a>
 
 #### AIM練習ソフト スクリーンショット(開発中)
-<a href="images/aim2.png">
-    <img src="images/aim2.png" style="width:30%; display:block;"/>
+<a href="docs/images/aim2.png">
+    <img src="docs/images/aim2.png" style="width:30%; display:block;"/>
 </a>
-<a href="images/aim3.png">
-    <img src="images/aim3.png" style="width:30%; display:block;"/>
+<a href="docs/images/aim3.png">
+    <img src="docs/images/aim3.png" style="width:30%; display:block;"/>
 </a>
 
 
@@ -93,8 +93,8 @@ GameWithDesignSystemに関しては、下記技術ブログをご参照くださ
 
 
 ### GO最新攻略 & レイド招待・個体値チェッカー
-<a href="images/pokegoapp.png">
-  <img src="images/pokegoapp.png" style="width:30%; display:block;" />
+<a href="docs/images/pokegoapp.png">
+  <img src="docs/images/pokegoapp.png" style="width:30%; display:block;" />
 </a>
 
 [GameWith Developer Blog 「社内でFlutterを採用しアプリと管理画面を開発した話」](https://tech.gamewith.co.jp/entry/2022/11/04/150724)より。
@@ -130,8 +130,8 @@ GameWithではフルリモートワークと裁量労働制を導入していま
 ## 各種管理
 コミュニケーションツールとして slack、 チームのタスク管理には ZenHub、ドキュメント管理には Notion を利用しており、**フルリモートワーク体制でも滞りなく業務が遂行できる**ツールを積極的に導入しています。
 
-<a href="images/zenhub.png">
-  <img src="images/zenhub.png" style="width:30%; display:block;" />
+<a href="docs/images/zenhub.png">
+  <img src="docs/images/zenhub.png" style="width:30%; display:block;" />
 </a>
 
 ZenHubのカンバンボード
@@ -166,8 +166,8 @@ GameWithを開発するエンジニアにとって、少なくとも3つのス�
 コンテンツだけではなくサービスとして、より良い価値提供をユーザに行えるような組織体制を目指しています。  
 解像度高くサービスのことを理解しているエンジニアだからこそできる施策やシステム改善などを積極的に実現できるよう仕組みやカルチャーをつくっています。
 
-<a href="images/buttomup.png">
-  <img src="images/buttomup.png" style="width:30%; display:block;" />
+<a href="docs/images/buttomup.png">
+  <img src="docs/images/buttomup.png" style="width:30%; display:block;" />
 </a>
 
 ### 提案ボード
@@ -175,8 +175,8 @@ GameWithを開発するエンジニアにとって、少なくとも3つのス�
 施策立案をする際には、どのKPIに対して影響があるかを考えます。実際にリリースしたあとに結果はどうだったかを振り返る場をつくるようにしています。  
 数値分析グループでは週次での定期レポーティング会を行っており、エンジニアもサービス全体の数値把握をおこなう機会があります。
 
-<a  href="images/analytics.png">
-  <img src="images/analytics.png" style="width:30%; display:block;" />
+<a  href="docs/images/analytics.png">
+  <img src="docs/images/analytics.png" style="width:30%; display:block;" />
 </a>
 
 ### 開発効率の改善
@@ -191,8 +191,8 @@ GameWithを開発するエンジニアにとって、少なくとも3つのス�
 毎月おこなわれるサービス開発部の全体会のコンテンツのひとつとして、業務に対する個人のこだわりポイントを話してもらう業務アピール会というものを実施しています。  
 また、毎週金曜日の業務時間終了後に任意参加の社内LT会が開催されています。ここでは、最近気になった技術やトピックなどを自由に発表しています。  
 
-<a href="images/appeal.png">
-  <img src="images/appeal.png" style="width:30%; display:block;" />
+<a href="docs/images/appeal.png">
+  <img src="docs/images/appeal.png" style="width:30%; display:block;" />
 </a>
 
 ## 互いに感謝・称賛するカルチャー
@@ -200,8 +200,8 @@ Slack上で ピアボーナスのシステムである[HeyTaco](https://heytaco.
 これはタコスの絵文字で感謝を手軽に表現することでインセンティブを付与できるシステムです。  
 タコスを集めるとガチャを引くことができ、当たりが出ると iTunesカード もしくは GooglePlayカード をもらうことができます。
 
-<a href="images/tacos.png">
-  <img src="images/tacos.png" style="width:30%; display:block;" />
+<a href="docs/images/tacos.png">
+  <img src="docs/images/tacos.png" style="width:30%; display:block;" />
 </a>
 
 ## 積極的なスキルアップ支援
@@ -214,24 +214,24 @@ Slack上で ピアボーナスのシステムである[HeyTaco](https://heytaco.
 - 読書をしたものは内容のサマリをブログで公開
 - etc…
 
-<a href="images/study.png">
-  <img src="images/study.png" style="width:30%; display:block;" /> 
+<a href="docs/images/study.png">
+  <img src="docs/images/study.png" style="width:30%; display:block;" /> 
 </a>
 
 ### OSSコントリビュータ / コミッタ手当
 GitHub の場合、スター数が一定以上の OSS に対して Issue の起票や PullRequest のマージを一定以上行うことによって支給されます。  
 ハードルが高い分、半年程度継続して手当が支給されます。
 
-<a href="images/contributer.png">
-  <img src="images/contributer.png" style="width:30%; display:block;" />
+<a href="docs/images/contributer.png">
+  <img src="docs/images/contributer.png" style="width:30%; display:block;" />
 </a>
 
 ### テックブログの執筆
 社内でテックブログ推進委員がおり、ブログ作成に不安がある人も安心して書くことができます。  
 ブログを記載することはエンジニアのスキル向上に役に立つと捉えており、業務時間を使ってブログ執筆も可能です。
 
-<a href="images/blog.png">
-  <img src="images/blog.png" style="width:30%; display:block;" />
+<a href="docs/images/blog.png">
+  <img src="docs/images/blog.png" style="width:30%; display:block;" />
 </a>
 
 # appendix
