@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>GameWith エンジニア採用ページ</title>
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<main class="markdown-body">
+<h1 id="GameWith エンジニア採用ページ">GameWith エンジニア採用ページ</h1>
+<p>ご覧いただきありがとうございます。<br />
+このページではGameWithのエンジニア採用にあたり、技術スタックや開発プロセス、社内カルチャーなどを紹介しています。<br />
+GameWithの<a href="https://recruit.gamewith.co.jp/">採用情報ページ</a>も合わせてご覧ください</p>
+<p>詳しく話を聞きたいという方は、是非<a href="https://www.wantedly.com/projects/606408">Wantedly ページ</a>からカジュアル面談にお申し込みください。<br />
+<a href="interview_guide_engineer.html">GameWith エンジニアの採用面接ガイド</a>も一読いただけると幸いです。</p>
+<h1 id="GameWithの開発スタイルのご紹介">GameWithの開発スタイルのご紹介</h1>
+<h2 id="技術スタック・ツール">技術スタック・ツール</h2>
+<p>サーバサイド言語としては、主に PHP と Go を採用しています。<br />
+GameWithは FuelPHP というフレームワークを利用して開発されていますが、適切な粒度でのサービス分割、新規実装部分は Go+Vue.js にて実装するケースも増えています。<br />
+最近ではスマホアプリや一部の Web に Flutter を取り入れています。</p>
+<h2 id="提供サービス紹介">提供サービス紹介</h2>
+<h3 id="GameWith">GameWith</h3>
+<ul>
+<li>サーバサイド：PHP, Go, Node.js</li>
+<li>フロントエンド： React, TypeScript, ES6, jQuery, Vue.js, Web Components, LESS...</li>
+<li>クライアントサイド: Swift, Kotlin, Flutter (Dart), Unity (C#)</li>
+<li>機械学習: Python</li>
+<li>データベース：MySQL, Aurora, DocumentDB, DynamoDB</li>
+<li>システムモニタリング：New Relic, Firebase Performance Monitoring</li>
+<li>分析基盤：BigQuery, Google Analytics 4, Google Data Studio</li>
+<li>テスト：Autify</li>
+<li>インフラ<ul>
+<li>AWS（ALB, ECS Fargate, ElastiCache, S3, Lambda, CloudFront...）</li>
+<li>GCP（Firebase, Cloud Firestore, Cloud Functions, Vision AI...）</li>
+<li>Akamai（Image and Video Manager, Adaptive Media Delivery...）</li>
+<li>Terraform</li>
+</ul>
+</li>
+</ul>
+<h4 id="GameWith 日本語版スクリーンショット">GameWith 日本語版スクリーンショット</h4>
+<p>PC(Web)</p>
+<a href="images/gamewithjp1.png">
+  <img src="images/gamewithjp1.png" style="width:30%; display:block;" />  
+</a>
+
+<p>SP(Web)</p>
+<a href="images/gamewithjp2.png">
+  <img src="images/gamewithjp2.png" style="width:30%; display:block;" />
+</a>
+
+<h4 id="GameWith英語版スクリーンショット">GameWith英語版スクリーンショット</h4>
+<a href="images/gamewithen.png">
+  <img src="images/gamewithen.png" style="width:30%; display:block;" />
+</a>
+
+<h4 id="iOSアプリ">iOSアプリ</h4>
+<p><a href="https://apps.apple.com/jp/app/gamewith-%E3%82%B2%E3%83%BC%E3%83%A0%E3%82%A6%E3%82%A3%E3%82%BA/id1296719342">https://apps.apple.com/jp/app/gamewith-%E3%82%B2%E3%83%BC%E3%83%A0%E3%82%A6%E3%82%A3%E3%82%BA/id1296719342</a></p>
+<h4 id="Androidアプリ">Androidアプリ</h4>
+<p><a href="https://play.google.com/store/apps/details?id=jp.gamewith.gamewith">https://play.google.com/store/apps/details?id=jp.gamewith.gamewith</a></p>
+<h3 id="AIM練習ソフト">AIM練習ソフト</h3>
+<ul>
+<li>クライアントサイド: Unity (C#)</li>
+<li>サーバサイド：Go</li>
+<li>データベース：Aurora MySQL</li>
+<li>インフラ:<ul>
+<li>AWS（ALB, ECS Fargate, S3, Lambda, CloudFront...）</li>
+</ul>
+</li>
+</ul>
+<h4 id="AIM練習ソフト概要">AIM練習ソフト概要</h4>
+<a href="images/aim1.png">
+    <img src="images/aim1.png" style="width:30%; display:block;" />
+</a>
+
+<h4 id="AIM練習ソフト スクリーンショット(開発中)">AIM練習ソフト スクリーンショット(開発中)</h4>
+<a href="images/aim2.png">
+    <img src="images/aim2.png" style="width:30%; display:block;"/>
+</a>
+<a href="images/aim3.png">
+    <img src="images/aim3.png" style="width:30%; display:block;"/>
+</a>
+
+<h2 id="GameWithを構成する周辺システムについて">GameWithを構成する周辺システムについて</h2>
+<p>GameWithはさまざまなマイクロサービスや独自ライブラリなどで構成されています。<br />
+より良いサービスをユーザーに提供するためにシステムも日々進化していますが数が多いので一部を抜粋してご紹介します。</p>
+<h3 id="記事下コメントシステム">記事下コメントシステム</h3>
+<p>GameWithの各種記事に書き込みできるコメントを管理するシステムです。</p>
+<p>バックエンドは Go、フロントエンドは GameWithDesignSystem（Vue.js/TypeScript）を利用しています。<br />
+会員登録せずとも書き込みができる仕様になっているため、トラフィックの多いGameWithでもユーザーが快適に利用できるようにフロントエンドでの非同期描画や CDN の利用などの工夫をしています。</p>
+<p>GameWithDesignSystemに関しては、下記技術ブログをご参照ください。<br />
+<a href="https://tech.gamewith.co.jp/entry/2020/04/21/185819">GameWith Developer Blog 「GameWithのリプレイスについて vol.2 〜Web Components を Vue で書いたら最高だった編〜」</a>より。</p>
+<h3 id="GO最新攻略 &amp; レイド招待・個体値チェッカー">GO最新攻略 &amp; レイド招待・個体値チェッカー</h3>
+<a href="images/pokegoapp.png">
+  <img src="images/pokegoapp.png" style="width:30%; display:block;" />
+</a>
+
+<p><a href="https://tech.gamewith.co.jp/entry/2022/11/04/150724">GameWith Developer Blog 「社内でFlutterを採用しアプリと管理画面を開発した話」</a>より。</p>
+<h1 id="GameWithエンジニアの働き方">GameWithエンジニアの働き方</h1>
+<h2 id="フルリモートワークと裁量労働制">フルリモートワークと裁量労働制</h2>
+<p>GameWithではフルリモートワークと裁量労働制を導入しています。<br />
+もちろん配属チームでの調整は必要ですが、柔軟な調整ができます。<br />
+保育園送り迎えのため 9 時〜 18 時勤務にしたり、朝が苦手で 12 時〜 21 時勤務など、さまざまなエンジニアが在籍しています。<br />
+通院のために開始時間を遅くしたり昼休憩を長くして、その分夜に長めに仕事をするという方もいます。</p>
+<h2 id="組織体制">組織体制</h2>
+<p>サービス開発部では約 25 名のメンバーが在籍しています。<br />
+事業に沿ったチームと、それを横断的にサポートするチームが存在します。<br />
+定期的に情報共有会を開催したり、一部のメンバーは複数のチームを兼務していたりとチーム間連携も活発に行われています。<br />
+ロールとしてはリーダー/ディレクター/エンジニアというメンバーでチームが構成されています。</p>
+<p>開発チームの年齢は 20代前半 〜 40代 のレンジで構成されており、ボリュームゾーンは 30 代前半です。<br />
+攻略記事ライター出身やディレクター経験のあるエンジニアも在籍しており、さまざまな経歴を持つエンジニアが存在するのも特徴です。<br />
+育児中のエンジニアリーダーやマネージャー、女性エンジニア、外国籍エンジニアなども活躍しています。</p>
+<h1 id="開発プロセス">開発プロセス</h1>
+<h2 id="プロジェクトの進み方">プロジェクトの進み方</h2>
+<p>チームごとにワークフローを決めて動いているため細かな違いがありますが、以下の部分は共通しています。</p>
+<ul>
+<li>1週間を1スプリントとしたアジャイル開発</li>
+<li>1日1回ビデオ通話による朝会（デイリースクラムのようなもの）を実施</li>
+</ul>
+<p>また、チームや仕事内容によって度合いは変わりますが各事業部とも仕様の相談・調整を随時行っています。開発部が主体的にビジネス視点での改善や施策を提案しコミットすることを強く推奨しており、ビジネス側もそれを受け入れる風土があります。</p>
+<h2 id="各種管理">各種管理</h2>
+<p>コミュニケーションツールとして slack、 チームのタスク管理には ZenHub、ドキュメント管理には Notion を利用しており、<strong>フルリモートワーク体制でも滞りなく業務が遂行できる</strong>ツールを積極的に導入しています。</p>
+<a href="images/zenhub.png">
+  <img src="images/zenhub.png" style="width:30%; display:block;" />
+</a>
+
+<p>ZenHubのカンバンボード</p>
+<h2 id="日常的にリリースを行う">日常的にリリースを行う</h2>
+<p>現在の月間リリース数は80前後。平均すると1日に4〜5回リリースが行われている計算になります。<br />
+GameWithではユーザに価値を素早く届けることを重視しており、ビッグバンリリースよりも小さなリリースを日常的に行うのが良しとされています。</p>
+<h1 id="エンジニアから見たGameWithの面白さ">エンジニアから見たGameWithの面白さ</h1>
+<h2 id="ハイトラフィックなサービスの開発運用">ハイトラフィックなサービスの開発運用</h2>
+<p>月間5億PV、4500万UUが利用するサービスのため、自らリリースした施策への反応がすぐに返ってきます。<br />
+秒間リクエスト数まで意識をして設計や実装する必要があるため、エンジニアとしてのスキルが磨かれます。</p>
+<h2 id="いちゲームユーザーとしての視点が活かせる">いちゲームユーザーとしての視点が活かせる</h2>
+<p>2020年〜の巣ごもり需要により、ゲーム業界全体の市場規模が大きく伸長しています。<br />
+その中で攻略メディアビジネスも競争が激化しており、差別化やメディアとしてさらなる品質向上が重要になってきています。</p>
+<p>そのため、いかに素早くユーザのニーズに応えられるようなサービスを提供し続けることができるかが今後の成長の鍵となります。<br />
+技術力だけでなく業界のトレンドやいま流行しているゲームについてのキャッチアップも同時に求められ、とても刺激的な環境です。</p>
+<h2 id="あらゆるステークホルダを支える屋台骨">あらゆるステークホルダを支える屋台骨</h2>
+<p>GameWithを開発するエンジニアにとって、少なくとも3つのステークホルダが存在すると考えています。<br />
+まず１つにゲームを楽しむエンドユーザーです。品質の高い情報をいち早くユーザーに届け、ユーザーのゲームプレイをより快適にすることが求められます。</p>
+<p>次にゲームを売り出すパブリッシャーやデベロッパーです。発売されたゲームをより楽しんでもらうこと、ゲームの魅力をより多くのユーザーに届けることでさらなるゲーム業界の発展に寄与していきます。</p>
+<p>最後にGameWithでゲームの記事を書くライターです。ダッシュボードを常に改善し続けることで彼らがより効率的に良い記事をリリースし続けることを目ざいます。</p>
+<p>このような多様なステークホルダが満足するようにエンジニアリングの観点から最善を尽くしています。</p>
+<h2 id="GameWith開発部が目指す組織の姿">GameWith開発部が目指す組織の姿</h2>
+<h3 id="ボトムアップでのシステム改善・施策提案の実施">ボトムアップでのシステム改善・施策提案の実施</h3>
+<p>コンテンツだけではなくサービスとして、より良い価値提供をユーザに行えるような組織体制を目指しています。<br />
+解像度高くサービスのことを理解しているエンジニアだからこそできる施策やシステム改善などを積極的に実現できるよう仕組みやカルチャーをつくっています。</p>
+<a href="images/buttomup.png">
+  <img src="images/buttomup.png" style="width:30%; display:block;" />
+</a>
+
+<h3 id="提案ボード">提案ボード</h3>
+<p>数値分析によるファクトベースでの施策立案。<br />
+施策立案をする際には、どのKPIに対して影響があるかを考えます。実際にリリースしたあとに結果はどうだったかを振り返る場をつくるようにしています。<br />
+数値分析グループでは週次での定期レポーティング会を行っており、エンジニアもサービス全体の数値把握をおこなう機会があります。</p>
+<a  href="images/analytics.png">
+  <img src="images/analytics.png" style="width:30%; display:block;" />
+</a>
+
+<h3 id="開発効率の改善">開発効率の改善</h3>
+<p>2013年にGameWithがリリースされ、以来多くの機能開発を行ってきました。コードベースや組織の拡大に伴うスピード低下を避けるために課題をひとつずつクリアし、あらゆる面から効率向上のための取り組みをおこなっています。</p>
+<ul>
+<li>機動的なペアプロ、モブワークの実践</li>
+<li>設計・コード・セキュリティレビューの実施</li>
+<li>E2Eテスト自動化によるテスト工数圧縮</li>
+<li>不要コードの削減</li>
+</ul>
+<h1 id="カルチャー">カルチャー</h1>
+<h2 id="業務アピール会・社内LT会">業務アピール会・社内LT会</h2>
+<p>毎月おこなわれるサービス開発部の全体会のコンテンツのひとつとして、業務に対する個人のこだわりポイントを話してもらう業務アピール会というものを実施しています。<br />
+また、毎週金曜日の業務時間終了後に任意参加の社内LT会が開催されています。ここでは、最近気になった技術やトピックなどを自由に発表しています。</p>
+<a href="images/appeal.png">
+  <img src="images/appeal.png" style="width:30%; display:block;" />
+</a>
+
+<h2 id="互いに感謝・称賛するカルチャー">互いに感謝・称賛するカルチャー</h2>
+<p>Slack上で ピアボーナスのシステムである<a href="https://heytaco.com/">HeyTaco</a>を採用しています。<br />
+これはタコスの絵文字で感謝を手軽に表現することでインセンティブを付与できるシステムです。<br />
+タコスを集めるとガチャを引くことができ、当たりが出ると iTunesカード もしくは GooglePlayカード をもらうことができます。</p>
+<a href="images/tacos.png">
+  <img src="images/tacos.png" style="width:30%; display:block;" />
+</a>
+
+<h2 id="積極的なスキルアップ支援">積極的なスキルアップ支援</h2>
+<p>エンジニアのスキルアップの支援として以下の手当や取り組みを行っています</p>
+<h3 id="技術勉強手当">技術勉強手当</h3>
+<p>業務時間外に月10時間以上の取り組みをした場合に支給されます。<br />
+基本的にはアウトプットが残る形を推奨しています。</p>
+<ul>
+<li>コードがあるものは GitHub のリポジトリ公開</li>
+<li>読書をしたものは内容のサマリをブログで公開</li>
+<li>etc…</li>
+</ul>
+<a href="images/study.png">
+  <img src="images/study.png" style="width:30%; display:block;" /> 
+</a>
+
+<h3 id="OSSコントリビュータ / コミッタ手当">OSSコントリビュータ / コミッタ手当</h3>
+<p>GitHub の場合、スター数が一定以上の OSS に対して Issue の起票や PullRequest のマージを一定以上行うことによって支給されます。<br />
+ハードルが高い分、半年程度継続して手当が支給されます。</p>
+<a href="images/contributer.png">
+  <img src="images/contributer.png" style="width:30%; display:block;" />
+</a>
+
+<h3 id="テックブログの執筆">テックブログの執筆</h3>
+<p>社内でテックブログ推進委員がおり、ブログ作成に不安がある人も安心して書くことができます。<br />
+ブログを記載することはエンジニアのスキル向上に役に立つと捉えており、業務時間を使ってブログ執筆も可能です。</p>
+<a href="images/blog.png">
+  <img src="images/blog.png" style="width:30%; display:block;" />
+</a>
+
+<h1 id="appendix">appendix</h1>
+<ul>
+<li><a href="interview_guide_engineer.html">GameWith エンジニアの採用面接ガイド</a></li>
+<li><a href="articles.html">GameWith エンジニアやサービス開発にまつわる記事</a></li>
+<li><a href="https://twitter.com/gamewith_dev">X - GameWith_Dev</a></li>
+</ul>
+
+</main>
+</body>
+</html>
